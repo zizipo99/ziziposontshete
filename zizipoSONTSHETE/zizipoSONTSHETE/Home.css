@@ -1,0 +1,57 @@
+
+body{
+    background-image: url(images/web.jpeg);
+     height: 100vh;
+     background-repeat: no-repeat;
+    }
+
+.nav-bar {
+ display: flex;
+ text-align: right;
+ flex-direction: row;
+ margin: 10px;
+ line-height: 45px;
+ font-size: 30px;
+ padding: 20px 30px 20px 30px;
+ 
+}
+
+.nav-bar a{
+ color: white;
+ text-decoration: none;
+ font-size: 20px;
+ border: 2px solid white;
+ padding: 10px 20px 10px 20px;
+ margin: 0 20px 0 0;
+ align-items: center;
+}
+
+.nav-bar a:hover{
+ color: white;
+ background-color: wheat;
+ padding: 10px 20px 10px 20px;
+}
+
+
+.portfolio-title {
+    text-align: center;
+    color: white;
+}
+
+.social-media img {
+    height: 40px;
+    width: 50px;
+    padding: 0 10px 0 10px;
+    align-items: flex-end ;
+}
+.profile-pictire img {
+        display: flex;
+        justify-content: center;
+        /* border: 1px solid white; */
+        padding: 30px 0 30px 0; 
+    }
+
+.title {
+    text-align: center;
+    color: white;
+}
